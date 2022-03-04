@@ -10,23 +10,23 @@ body {
   position: relative;
 }
 
-ul {
+header ul {
   list-style-type: none;
 }
 
-li {
+header li {
   display: inline-block;
   font-size: 30px;
   margin-left: 11%;
   margin-top: 0.5%;
 }
 
-a {
+header a {
   text-decoration: none;
   color: #fff;
 }
 
-li :hover {
+header li :hover {
   color: black;
   border: 2px solid black;
   border-radius: 15%;
@@ -77,6 +77,9 @@ header {
   }
   #projects {
     width: 90% !important;
+  }
+  #kontakt label {
+    margin-right: 28%;
   }
 }
 
@@ -174,7 +177,7 @@ p {
   #projects .project2 img {
     width: 300px;
     height: 200px;
-    margin: 4% 13%;
+    margin: 4% 0px;
   }
   #projects .project2 h5 {
     margin-right: 18%;
@@ -359,29 +362,42 @@ h5 {
   .tittle2 h2 {
     font-size: auto;
   }
-  .projekti {
+  #projects {
+    height: 700px !important;
+  }
+  #projects .projekti {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .projekti .project1 a img {
+  #projects .projekti .project1 a img {
     width: 200px;
     height: 200px;
   }
-  .projekti .project1 h5 {
+  #projects .projekti .project1 h5 {
     font-size: 15px;
     margin-right: 70px;
     color: #000;
   }
-  .projekti .project2 a img {
+  #projects .projekti .project2 a img {
     width: 200px;
     height: 200px;
   }
-  .projekti .project2 h5 {
+  #projects .projekti .project2 h5 {
     font-size: 15px;
-    margin-right: 70px;
+    margin-left: 15%;
     color: #000;
+  }
+  #usluge {
+    margin-top: 26%;
+  }
+  #usluge .usluga img {
+    height: auto;
+    width: auto;
+  }
+  #usluge .usluga h5 {
+    margin-top: 4%;
   }
 }
 
@@ -391,20 +407,32 @@ h5 {
           justify-content: center;
   text-align: center;
   width: 90%;
-  height: 450px;
+  height: 550px;
   background-color: rgba(128, 128, 128, 0.527);
   margin: 4% auto;
   border-radius: 30%;
   border: 2px double white;
+  margin-bottom: 4%;
 }
 
-h6 {
+#usluge h6 {
   font-size: 40px;
 }
 
+#usluge .usluga .img {
+  height: 150px;
+  width: 200px;
+}
+
+#usluge .usluga h5 {
+  font-size: auto;
+  color: #000;
+}
+
 #kontakt {
-  height: 500px;
-  width: 100%;
+  margin-top: 25%;
+  height: auto;
+  width: auto;
   padding-bottom: 2%;
   background-color: #e2e2e2;
   display: -webkit-box;
@@ -454,5 +482,31 @@ h6 {
 #kontakt label {
   margin-left: 30%;
   font-size: 25px;
+}
+
+form {
+  margin-top: 10%;
+}
+
+footer {
+  width: 100% !important;
+  background: black;
+  padding: 20px 0px;
+  margin-top: 10px;
+}
+
+footer nav ul {
+  list-style-type: none;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li a {
+  font-size: 20px;
+  margin-left: 20px;
+  color: #b3b2a0;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
